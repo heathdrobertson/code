@@ -1,0 +1,8 @@
+total 32
+-rw-r--r--   1 toilethill  staff  1072 Mar 14 11:16 LICENSE
+-rwxr--r--   1 toilethill  staff   975 Mar 15 13:12 README.md
+drwxr-xr-x   4 toilethill  staff   128 Mar 15 13:28 assets
+-rwxr--r--   1 toilethill  staff   388 Mar 14 14:34 commands.txt
+drwxr-xr-x   7 toilethill  staff   224 Mar 15 13:10 files
+-rwxr-xr-x   1 toilethill  staff   728 Mar 15 13:26 new.sh
+drwxr-xr-x  14 toilethill  staff   448 Mar 15 13:27 scripts

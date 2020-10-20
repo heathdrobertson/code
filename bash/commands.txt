@@ -1,0 +1,19 @@
+Terminal Commands
+Commands to remember
+
+- cal
+- whoami
+- say
+- file
+- `*` (regex match all) 
+- `>>` (Append to file.)
+- less
+- tail
+- sort
+- find
+- grep (Search inside a file) -n flag shows line number
+- awk
+- unset removes a set variable
+- $ (used to expand a variable)
+- read (sets a variable with the value entered on the next line)
+- which (Shows where the command is being run from)

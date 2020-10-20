@@ -1,0 +1,6 @@
+I spell in a file to grep.
+
+Spell is here also. 
+*-------##****
+1:I spell in a file to grep.
+3:Spell is here also.
