@@ -1,4 +1,19 @@
 # Javascript
 __JavaScript Practice Code &amp; Tools__
 
-## Vue.js App
+
+## Quick Start
+
+### To creat the container:
+
+```bash
+export CONTAINER_NAME=<change_me>
+```
+
+```bash
+docker run -it \
+--name ${CONTAINER_NAME} \
+--volumes-from nix \
+--volume $(pwd):/home/ci \
+heathrobertson/nix:latest
+```

@@ -1,6 +1,26 @@
 # Rust
 __Rust Programming Language Practice Code__
 
+
+## Quick Start
+
+```bash
+docker run -it \
+--name rust \
+--volumes-from nix \
+--volume $(pwd):/home/ci \
+--workdir /home/ci \
+-p 8080:8080 \
+heathrobertson/nix
+```
+
+```bash
+cd projects/hello/ \
+&& rustc main.rs \
+&& ./main
+```
+
+
 - [x] Udemy <a href="https://www.udemy.com/share/100udaBUQYc1dRQnQ=/" target="_blank">The Rust Progamming Language Course</a>
 - Crate: ```rust_up``` - Basic Rust Language Syntax.
     - [Control Flow](/rust_up/src/control_flow)
