@@ -1,6 +1,21 @@
 # Nix Shell Scripting
 
 
+## Quick Start
+```bash
+export CONTAINER_NAME=nix-repl
+```
+
+```bash
+docker run -it \
+--name ${CONTAINER_NAME} \
+--volumes-from nix \
+--volume $(pwd):/home/ci \
+--workdir /home/ci \
+heathdrobertson/nix nix-shell
+```
+
+
 - [pkgs - NixOS Packages](https://nixos.org/nixos/packages.html#)
 - [docs - Language Features](https://nixos.org/nix/manual/#ch-expression-language)
 

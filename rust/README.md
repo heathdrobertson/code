@@ -5,12 +5,14 @@ __Rust Programming Language Practice Code__
 ## Quick Start
 
 ```bash
+export container_name=rust
+```
+```bash
 docker run -it \
---name rust \
+--name ${CONTAINER_NAME} \
 --volumes-from nix \
 --volume $(pwd):/home/ci \
 --workdir /home/ci \
--p 8080:8080 \
 heathrobertson/nix
 ```
 

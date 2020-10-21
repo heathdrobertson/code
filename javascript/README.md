@@ -7,7 +7,7 @@ __JavaScript Practice Code &amp; Tools__
 ### To creat the container:
 
 ```bash
-export CONTAINER_NAME=<change_me>
+export CONTAINER_NAME=javascript
 ```
 
 ```bash
@@ -15,5 +15,5 @@ docker run -it \
 --name ${CONTAINER_NAME} \
 --volumes-from nix \
 --volume $(pwd):/home/ci \
-heathrobertson/nix:latest
+heathdrobertson/nix:latest
 ```

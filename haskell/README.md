@@ -30,7 +30,7 @@ docker run -it \
 --name ${CONTAINER_NAME} \
 --volumes-from nix \
 --volume $(pwd):/home/ci \
-heathrobertson/nix:latest
+heathdrobertson/nix:latest
 ```
 
 ```bash

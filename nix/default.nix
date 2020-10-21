@@ -1,14 +1,11 @@
+# see https://nixos.org/nixos/packages.html to search for more
 with import <nixpkgs> {};
 
-let
-  # The ${...} is for string interpolation
-  # The '' quotes are used for multi-line strings
-  simplePackage = pkgs.writeShellScriptBin "whatIsMyIp" ''
-    ${pkgs.curl}/bin/curl http://httpbin.org/get | ${pkgs.jq}/bin/jq --raw-output .origin
-  '';
-in
-stdenv.mkDerivation rec {
-  name = "test-environment";
+stdenv.mkDerivation {
+  name = "nix-repl";
 
-  buildInputs = [ simplePackage pkgs.bash ];
+  buildInputs = [];
+  shellHook = ''
+    nix repl
+  '';
 }
